@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Myapp.MainPage"
+             Visual="Material">
+
+    <StackLayout VerticalOptions="Center"
+                 HorizontalOptions="Center"
+                 WidthRequest="240">
+        <Label Text=" Formulario By T00062598"
+               FontAttributes="Bold"
+               FontSize="30"
+               HorizontalTextAlignment="Center"
+               TextColor="DarkBlue"/>
+        <Entry Placeholder="Nombre" x:Name="Nombre"/>
+        <Entry Placeholder="Correo" x:Name="Correo"/>
+        <Entry Placeholder="Cedula" x:Name="Cedula"/>
+        <Entry Placeholder="Edad" x:Name="Edad"/>
+        <Entry Placeholder="Codigo Institucional" x:Name="Codigo"/>
+        <Button Text="Enviar a la base de datos" Clicked="Button_Clicked"
+                BackgroundColor="DarkSlateBlue"/>
+    </StackLayout>
+
+</ContentPage>
